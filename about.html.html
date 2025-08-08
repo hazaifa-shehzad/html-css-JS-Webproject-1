@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>project 2</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+</head>
+<body>
+
+
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="logo.png" alt="Logo" /></a>
+      <div class="nav-links" id="navLinks">
+        <div class="mobile-icon close-icon">
+          <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+        </div>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html.html">ABOUT</a></li>
+          <li><a href="course.html.html">COURSE</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        </ul>
+      </div>
+      <div class="mobile-icon menu-icon">
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </div>
+    </nav>
+        <h1>About Us</h1>
+  </section>
+
+
+
+<section class="about-us">
+  <div class="row">
+    <div class="about-col">
+      <h1>We are the world's largest university</h1>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut cum rem necessitatibus ea laudantium, quisquam maxime inventore ut optio eum deserunt officiis aspernatur sit. Quae repellat rerum error quia saepe.</p>
+      <a href="">EXPLORE NOW</a>
+    </div>
+    <div class="about-col">
+      <img src="about.jpg" alt="About Us Image">
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<section class="footer">
+  <h4>About Us</h4>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+  <div class="icon">
+    <i class="fab fa-facebook"></i>
+    <i class="fab fa-x-twitter"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-linkedin-in"></i>
+    <i class="fab fa-github"></i>
+  </div>
+  <p>Made with <i class="fas fa-heart"></i> Raja Hazaifa Shehzad()</p>
+</section>
+
+
+
+
+  <script>
+    var navlinks = document.getElementById("navLinks");
+    function showMenu() {
+      navlinks.style.right = "0";
+    }
+    function hideMenu() {
+      navlinks.style.right = "-200px";
+    }
+  </script>
+</body>
+</html>
+  
